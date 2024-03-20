@@ -1,0 +1,66 @@
+.container{
+ display: flex;
+}
+
+
+/*  aside styles */
+.sideMenu{
+ position: sticky;
+ top: 0;
+ left: 0;
+ width: 200px;
+ height: 100vh;
+ background-color: theme("colors.bgSoft");
+ padding: 10px;
+}
+
+.userInfo{
+ display: flex;
+ align-items: center;
+ gap: 8px;
+}
+
+.userRole{
+ font-weight: 2 00;
+ font-size: 12px;
+ letter-spacing: 1.2px;
+}
+
+.userImg{
+ border-radius: 10px;
+}
+     /* aside item */
+.item{
+ display: flex;
+ cursor: pointer;
+ padding: 10px 8px;
+ border-radius: 3px;
+ align-items: center;
+ gap: 10px;
+ margin-top: 0.5rem;
+ color: white;
+}
+
+.item:hover{
+ background-color: theme("colors.textsmooth");
+
+}
+.itemActive{
+ background-color: theme("colors.textsmooth");
+}
+
+.itemText{
+ font-size: 12px;
+ letter-spacing: 1.2px;
+
+}
+     /* aside item */
+
+
+/*  aside styles */
+
+
+.content{
+ flex: 1;
+ padding: 0 1rem;
+} 

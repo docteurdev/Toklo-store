@@ -1,0 +1,61 @@
+.card{
+ width: 300px;
+ height: 150px;
+ background-color: theme("colors.bgSoft");
+ border-radius: 10px;
+ padding: 10px;
+ cursor: pointer;
+ color: theme("colors.bgSoft");
+ display: flex;
+ align-items: center;
+ gap: 10px;
+
+}
+
+.cardText{
+ font-size: 12px;
+ letter-spacing: 1.1px;
+ margin-top: 5px;
+}
+.cardSubText{
+ font-size: 11px;
+ letter-spacing: 1.1px;
+ margin-top: 5px;
+ font-style: oblique;
+ color: "white";
+ display: flex;
+ gap: 6px;
+ align-items: center;
+}
+
+.cardSubText span{
+ font-size: 20px;
+ color: green;
+}
+
+.cardTitle{
+ font-size: 1.5rem;
+ font-weight: 700;
+
+}
+
+.iconBox{
+ width: 40px;
+ height: 40px;
+ justify-content: center;
+ align-items: center;
+ background-color: theme("colors.textsmooth");
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 100%;
+ align-self: flex-start;
+ color: white;
+}
+
+@media screen and (max-width: 410px) {
+ .card{
+  width: 100%;
+  margin-bottom: 10px;
+ }
+}

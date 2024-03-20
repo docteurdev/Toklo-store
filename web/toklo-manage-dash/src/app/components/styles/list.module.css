@@ -1,0 +1,41 @@
+/* list.module.css */
+
+.users{
+ padding: 10px;
+ /* background-color: 'bg-slate-500'; */
+ border-radius: 10px;
+ color: white;
+}
+
+.table {
+ width: 100%;
+ border-collapse: collapse;
+}
+
+.userRounded{
+ width: 40px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--bg);
+ border-radius: 100%;
+ font-size: 20px;
+}
+
+.tabletr {
+ height: 40px; /* Set your desired height for tbody tr elements */
+}
+
+.table tr {
+ padding: 8px;
+ text-align: left;
+}
+
+.table th, .table td {
+ padding: 8px;
+}
+.tabletr td {
+ padding: 8px;
+ font-size: 12px;
+}

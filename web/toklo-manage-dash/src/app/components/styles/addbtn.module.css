@@ -1,0 +1,22 @@
+.btn{
+ background-image: linear-gradient(310deg,#141727,#3a416f);
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+ width: 100px;
+ gap: 5px;
+ border-radius: 10px;
+
+}
+
+.btn span:first-child{
+ font-size: 23px;
+ font-weight: 600;
+}
+
+.btn span:last-child{
+ font-size: 12px;
+ font-weight: 600;
+}
